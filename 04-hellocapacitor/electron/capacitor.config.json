@@ -1,0 +1,13 @@
+{
+  "appId": "com.example.app",
+  "appName": "04-hellocapacitor",
+  "bundledWebRuntime": true,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

@@ -28,12 +28,6 @@
       href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"
     />
     <link rel="stylesheet" href="app.css" />
-    <script src="capacitor.js"></script>
-    <script type="module">
-      import { modalController } from "https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/index.esm.js";
-      window.modalController = modalController;
-    </script>
-    <script src="app.js"></script>
   </head>
   <body>
     <ion-app>
@@ -52,5 +46,7 @@
         </ion-fab>
       </ion-content>
     </ion-app>
+    <script src="capacitor.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
