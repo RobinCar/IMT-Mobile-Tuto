@@ -1,0 +1,10 @@
+{
+    "name": "Mini PWA",
+    "start_url": "http://localhost:8080",
+    "display": "standalone",
+    "icons": [{
+        "src": "images/icone.png",
+        "sizes": "225x225",
+        "type": "image/png"
+        }]
+}
